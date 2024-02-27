@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing:border-box;
+  }
+
+  html,body{
+    height:100%;
+    margin: 0;
+    
+  }
+body{
+    background: #f6f6f6;
+    margin: 0;
+
+}
+/* links */
+a{
+    color: #bcaa96;
+}
+a:hover{
+    color: #bcaa96;
+    text-decoration: none;
+}
+footer a{
+    color: #bcaa96;
+}
+footer a:hover{
+    color:#3c8453;
+}
+/* Navigation
+-------------------------*/
+nav {
+    text-align: center;
+    background: rgb(4, 4, 4);
+    position: fixed;
+    opacity: 1;
+    top: 0;
+    bottom: auto;
+    width: 100%;
+    /*z-index: 100;*/
+  }
+  nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+  }
+  
+  nav a:hover {
+    background-color: #ccc; /* Change background color on hover */
+  }
+/* HOME 
+-----------------------------*/
+.home{
+    background: url(sunset.jpg) no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    padding: 60px;
+    max-width: 900px;
+}
+.home .content-wrapper{
+    
+    flex: 1 0 auto;
+}
+.center{
+    text-align:left;
+}
+.content-bg{
+    background: rgb(255 255 255 / 0.9);
+    padding: 30px;
+}
+/* RESUME 
+-----------------------------*/
+
+.resume-section{
+    margin-bottom: 50px;
+}
+.resume-section h2{
+    border-bottom: 2px dashed #d3d4d6;
+}
+.download-link{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+/* FOOTER 
+-----------------------------*/
+footer{
+    background: #222;
+    color: #d3d4d6;
+    display:flexbox;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.socials img{
+    width: 32px;
+}
+.socials img:hover{
+    opacity: 0.5;
+}
+.Profilepic{
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+.name{
+    text-align: center;
+}
